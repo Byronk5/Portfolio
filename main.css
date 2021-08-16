@@ -267,6 +267,32 @@ nav img {
   color: #00749c;
 }
 
+.wordpress-page-header {
+  background: url("./img/wordpress-logos/wordpress-banner.jpg") no-repeat center/cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.wp-heading {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: #212529;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.wordpress-sites img {
+  width: 200px;
+}
+.wordpress-sites h5 {
+  color: #212529;
+}
+
+.back-button {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 footer a {
   color: #fff;
 }

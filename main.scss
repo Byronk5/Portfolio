@@ -288,6 +288,38 @@ nav {
   }
 }
 
+// WORDPRESS PAGE
+
+.wordpress-page-header {
+  background: url("./img/wordpress-logos/wordpress-banner.jpg") no-repeat
+    center/cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.wp-heading {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: $dark-color;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.wordpress-sites {
+  img {
+    width: 200px;
+  }
+
+  h5 {
+    color: $dark-color;
+  }
+}
+
+.back-button {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 footer {
   a {
     color: $light-color;

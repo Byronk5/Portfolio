@@ -268,9 +268,8 @@ nav img {
 }
 
 .wordpress-page-header {
-  background: url("./img/wordpress-logos/wordpress-banner.jpg") no-repeat center/cover;
+  background: url("./img/wordpress-logos/wordpress-banner.jpg") no-repeat center center/cover;
   height: 50vh;
-  width: 100%;
 }
 
 .wp-heading {
@@ -293,6 +292,67 @@ nav img {
   margin-bottom: 5rem;
 }
 
+.discord-heading {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: #212529;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.discord-instructions {
+  color: #212529;
+  margin-bottom: 1rem;
+}
+
+.discord-page-header {
+  background: url("./img/discord-images/discord-header.png") no-repeat center center/cover;
+  background-size: 800px 700px;
+  height: 55vh;
+}
+
+.invite-btn {
+  background-color: #212529;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.invite-btn:hover {
+  background-color: #7189d9;
+}
+
+.invite-code {
+  margin-bottom: 3rem;
+  transform: translateX(100%);
+}
+.invite-code img {
+  width: 100px;
+}
+
+.invite-animation {
+  animation: inviteAppear ease-in 0.5s forwards;
+}
+
+.discord-back-button {
+  background-color: #212529;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.discord-back-button:hover {
+  background-color: #7189d9;
+}
+
+@keyframes inviteAppear {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 footer a {
   color: #fff;
 }
@@ -327,6 +387,10 @@ footer a {
   }
   .about-wrap .about-gif {
     display: none;
+  }
+
+  .discord-page-header {
+    background: url("./img/discord-images/discord-header.png") no-repeat center center/cover;
   }
 
   @keyframes enterName {

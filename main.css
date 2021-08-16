@@ -333,6 +333,16 @@ nav img {
   animation: inviteAppear ease-in 0.5s forwards;
 }
 
+.discord-back-button {
+  background-color: #212529;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.discord-back-button:hover {
+  background-color: #7189d9;
+}
+
 @keyframes inviteAppear {
   0% {
     opacity: 0;

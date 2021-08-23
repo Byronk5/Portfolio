@@ -35,7 +35,7 @@ nav img {
   position: absolute;
   top: 30%;
   transform: translateX(-600px);
-  animation: enterName ease-in 0.5s forwards;
+  animation: enterName ease-in 0.5s forwards 1.5s;
 }
 #greeting #greeting-button {
   position: absolute;
@@ -44,7 +44,8 @@ nav img {
   color: #212529;
   padding: 0.5rem;
   border-radius: 50%;
-  animation: enterButton ease-in 1s forwards;
+  opacity: 0;
+  animation: enterButton ease-in 1s forwards 1.5s;
 }
 #greeting #greeting-button:hover {
   background-color: #212529;
@@ -54,7 +55,7 @@ nav img {
   position: absolute;
   top: 95%;
   transform: translateX(600px);
-  animation: enterTitle ease-in 0.5s forwards;
+  animation: enterTitle ease-in 0.5s forwards 1.5s;
 }
 
 @keyframes enterName {
@@ -84,6 +85,7 @@ nav img {
   }
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 #skills {

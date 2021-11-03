@@ -1,4 +1,4 @@
-@use 'config';
+@use "config";
 
 $light-color: #fff;
 $dark-color: #212529;
@@ -309,10 +309,19 @@ nav {
 .wordpress-sites {
   img {
     width: 200px;
+    height: 200px;
   }
 
   h5 {
     color: $dark-color;
+  }
+  p {
+    color: $dark-color;
+    font-weight: bold;
+  }
+
+  .col {
+    margin-top: 3rem;
   }
 }
 

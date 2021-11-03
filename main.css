@@ -284,9 +284,17 @@ nav img {
 
 .wordpress-sites img {
   width: 200px;
+  height: 200px;
 }
 .wordpress-sites h5 {
   color: #212529;
+}
+.wordpress-sites p {
+  color: #212529;
+  font-weight: bold;
+}
+.wordpress-sites .col {
+  margin-top: 3rem;
 }
 
 .back-button {

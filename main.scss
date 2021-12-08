@@ -1,4 +1,4 @@
-@use "config";
+@use 'config';
 
 $light-color: #fff;
 $dark-color: #212529;
@@ -16,7 +16,7 @@ nav {
 
 // HERO
 .hero {
-  background: url("./img/hero-image.jpg") center/cover no-repeat;
+  background: url('./img/hero-image.jpg') center/cover no-repeat;
   height: 101vh;
   margin-top: -101px;
 }
@@ -171,7 +171,7 @@ nav {
   #about {
     visibility: hidden;
     position: absolute;
-    font-family: "Lora", serif;
+    font-family: 'Lora', serif;
     color: $dark-color;
     width: 60%;
     right: 0;
@@ -250,7 +250,7 @@ nav {
 }
 
 .card {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
 
   img {
     width: 100%;
@@ -260,7 +260,7 @@ nav {
 }
 
 .card-footer {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   a {
     margin: 1rem;
   }
@@ -293,7 +293,7 @@ nav {
 // WORDPRESS PAGE
 
 .wordpress-page-header {
-  background: url("./img/wordpress-logos/wordpress-banner.jpg") no-repeat center
+  background: url('./img/wordpress-logos/wordpress-banner.jpg') no-repeat center
     center/cover;
   height: 50vh;
 }
@@ -345,7 +345,7 @@ nav {
 }
 
 .discord-page-header {
-  background: url("./img/discord-images/discord-header.png") no-repeat center
+  background: url('./img/discord-images/discord-header.png') no-repeat center
     center/cover;
   background-size: 800px 700px;
   height: 55vh;
@@ -442,7 +442,7 @@ footer {
   }
 
   .discord-page-header {
-    background: url("./img/discord-images/discord-header.png") no-repeat center
+    background: url('./img/discord-images/discord-header.png') no-repeat center
       center/cover;
   }
 
